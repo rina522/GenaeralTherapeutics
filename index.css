@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+.banner{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.card-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:grey;
+}
+
+.strength{
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.strength > div{
+    margin: 2rem 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.s-pic{
+    max-width: 10rem;
+    margin-top: 2rem;
+}
+
+.tech{
+    
+}
+
