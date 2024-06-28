@@ -40,7 +40,44 @@
     margin-top: 2rem;
 }
 
-.tech{
-    
+.tech2{
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
 }
 
+.tech3, .tech4, .tech5, .tech6{
+    margin: 5rem;
+    display: grid;
+    align-items: left;
+    position: relative;
+}
+
+.pic3-2{
+    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+}
+
+.tech3{
+    grid-template-columns: 4fr 1fr;
+}
+.tech4{
+    grid-template-columns: 5fr 1fr;
+}
+
+.pic4-2{
+    width: 38%;
+    position: absolute;
+    top:10%;
+    left: 0;
+}
+
+.pic5-2{
+    width: 40%;
+    position: absolute;
+    top:-5%;
+    right: 0;
+}
